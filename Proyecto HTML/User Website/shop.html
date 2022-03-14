@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing-X Bakery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container nav-container">
+            <a href="./index.html">
+                <img src="./imgs/Logo Amazing-X Bakery Shop.png" 
+                alt="Logo Amazing-X Bakery Shop"
+                width="150px" height="150px">
+            </a>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="#">Promociones</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#"><div>Tienda</div></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>Amazing-X Bakery Shop</h1>
+        <h2>¡Fuera de órbita!</h2>
+        <p>Bienvenido al menú interactivo de Amaxing-X Bakery Shop.<br>
+            Por favor, ayúdanos con tu nombre y datos generales para
+            mejorar tu experiencia de compra.<br>
+            ¡Estamos encantados de poder ayudarte a transformar momentos
+            en experiencias de sabor inolvidables!
+        </p><hr>
+        <h3>Datos Generales</h3>
+        <section class="nav-container">
+            <form action="#">
+                <label for="nombre">Ingresa tu nombre:</label><br>
+                <input type="text" name="nombre" id="nombre" 
+                placeholder="Nombre" required><br>
+                <label for="dir">Dirección:</label><br>
+                <input type="text" name="dir" id="dir" 
+                placeholder="Dirección" required><br><br>
+
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" name="email" id="email"
+                placeholder="Email" required><br>
+                <label for="telefono">Número telefónico:</label><br>
+                <input type="tel" name="numero" id="numero"
+                placeholder="55 6432 796" pattern="[5-6]{2}[0-9]{8}" 
+                required><br><br>
+
+                <input type="submit" value="Compartir">
+                <input type="reset" value="Reinciar">
+            </form>
+            <p class="brief" id="formulario">
+                !Hola, "nombre"! Gracias por confiar en nosotros.<br>
+                Una vez que realices tu pedido, te compartiremos el detalle
+                del seguimiento al correo: "email".<br>
+                Si nuestro repartidor llega a tener alguna duda para encontrarte, 
+                intentará contactarte al teléfono: "numero".
+                ¡Agradecemos tu preferencia!
+            </p>
+        </section><br><hr>
+
+        <h3 id="menu">MENÚ</h3>
+        <section class="nav-container">
+            <div class="card">
+                <img src="./imgs/Chocolate Cake.jpg" alt="Pastel de chocolate"
+                width="230px" height="200px">
+                <h4>Pastel de Chocolate</h4>
+                <p>$150.00</p>
+            </div>
+            <div class="card">
+                <img src="./imgs/Red Velvet Cake.jpg" alt="Pastel red velvet"
+                width="230px" height="200px">
+                <h4>Pastel Red Velvet</h4>
+                <p>$170.00</p>
+            </div>
+            <div class="card">
+                <img src="./imgs/Carrot Cake.jpg" alt="Pastel de zanahoria"
+                width="230px" height="200px">
+                <h4>Pastel de Zanahoria</h4>
+                <p>$170.00</p>
+            </div>
+            <div class="card">
+                <img src="./imgs/Ice Cream Cake.jpg" alt="Pastel de helado"
+                width="230px" height="200px">
+                <h4>Pastel de Helado</h4>
+                <p>$210.00</p>
+            </div>
+        </section>
+
+        <h3 id="menu">TOPPINGS</h3>
+        <section class="nav-container">
+            <div class="card">
+                <img src="./imgs/Nuts Topping.jpg" alt="Semillas molidas"
+                width="230px" height="180px">
+                <h4>Semillas Molidas</h4>
+                <p>$85.00</p>
+            </div>
+            <div class="card">
+                <img src="./imgs/Fruits Toppings.jpg" alt="Frutas en rodajas"
+                width="230px" height="180px">
+                <h4>Fruta en Rodajas</h4>
+                <p>$70.00</p>
+            </div>
+            <div class="card">
+                <img src="./imgs/Jelly Topping.jpg" alt="Jalea"
+                width="230px" height="180px">
+                <h4>Jalea Natural</h4>
+                <p>$90.00</p>
+            </div>
+            <div class="card">
+                <img src="./imgs/Cocoa Topping.jpg" alt="Cocoa en polvo"
+                width="230px" height="180px">
+                <h4>Cocoa en Polvo</h4>
+                <p>$210.00</p>
+            </div>
+        </section><br><hr>
+        
+        <h2>¡Diseña tu pastel ideal!</h2>
+        <p>Ahora que conoces el increíble menú de Amaxing-X Bakery Shop,
+            es momento de poner tu imaginación a prueba.<br>
+            Siéntete libre de combinar los sabores y toppings de tu elección,
+            nuestros mestros pasteleros están a la altura del reto.<br>
+            La única regla a recordar es no combinar más de 2 sabores de pasteles.<br>
+            ¡Esperamos poder acompañarte en más momentos especiales!
+        </p><hr>
+
+        <form action="#">
+            <label for="tipoPastel">¿Cómo será tu pastel?</label>
+            <select name="tipoPastel" id="tipoPastel">
+                <option value="sencillo">Sencillo</option>
+                <option value="combinado">Combinado</option>
+            </select>
+            <section class="nav-container">
+                <div>
+                    <h4>Pastel Sencillo:</h4>
+                    <p>Selecciona el sabor:</p>
+                    <input type="radio" name="sabor" id="sabor1"
+                    value="chocolate">
+                    <label for="sabor1">Pastel de Chocolate</label><br>
+                    <input type="radio" name="sabor" id="sabor2"
+                    value="red velvet">
+                    <label for="sabor2">Pastel Red Velvet</label><br>
+                    <input type="radio" name="sabor" id="sabor3"
+                    value="zanahoria">
+                    <label for="sabor3">Pastel de Zanahoria</label><br>
+                    <input type="radio" name="sabor" id="sabor4"
+                    value="helado">
+                    <label for="sabor4">Pastel de Helado</label><br>
+                </div>
+                <div>
+                    <h4 style="margin-bottom: 0;">Pastel Combinado:</h4>
+                    <section class="nav-container">
+                        <div>
+                            <p>Primer sabor:</p>
+                            <input type="radio" name="sabor1" id="sabor1"
+                            value="chocolate">
+                            <label for="sabor1">Pastel de Chocolate</label><br>
+                            <input type="radio" name="sabor1" id="sabor2"
+                            value="red velvet">
+                            <label for="sabor2">Pastel Red Velvet</label><br>
+                            <input type="radio" name="sabor1" id="sabor3"
+                            value="zanahoria">
+                            <label for="sabor3">Pastel de Zanahoria</label><br>
+                            <input type="radio" name="sabor1" id="sabor4"
+                            value="helado">
+                            <label for="sabor4">Pastel de Helado</label><br>
+                        </div>
+                        <div style="margin-left: 10px;">
+                            <p>Segundo sabor:</p>
+                            <input type="radio" name="sabor2" id="sabor1"
+                            value="chocolate">
+                            <label for="sabor1">Pastel de Chocolate</label><br>
+                            <input type="radio" name="sabor2" id="sabor2"
+                            value="red velvet">
+                            <label for="sabor2">Pastel Red Velvet</label><br>
+                            <input type="radio" name="sabor2" id="sabor3"
+                            value="zanahoria">
+                            <label for="sabor3">Pastel de Zanahoria</label><br>
+                            <input type="radio" name="sabor2" id="sabor4"
+                            value="helado">
+                            <label for="sabor4">Pastel de Helado</label><br>
+                        </div>
+                    </section>
+                </div>
+                <div style="margin-right: 250px;">
+                    <h4>Toppings:</h4>
+                    <p>Selecciona tus toppings:</p>
+                    <input type="checkbox" name="topping1" id="topping1"
+                    value="semillas">
+                    <label for="topping1">Semillas Molidas</label><br>
+                    <input type="checkbox" name="topping2" id="topping2"
+                    value="frutas">
+                    <label for="topping2">Frutas en Rodajas</label><br>
+                    <input type="checkbox" name="topping3" id="topping3"
+                    value="jalea">
+                    <label for="topping3">Jalea Natural</label><br>
+                    <input type="checkbox" name="topping4" id="topping4"
+                    value="cocoa">
+                    <label for="topping4">Cocoa en Polvo</label><br>
+                </div>
+            </section><br>
+            <label for="descripcion">Comentarios adicionales:</label><br>
+            <input type="text" size="50"><br><br>
+            <input type="submit" value="Ordenar">
+            <input type="reset" value="Reiniciar">
+        </form><br><hr>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Calle Pastelería #65, Col. Mágica, Edo. Mex. CP:55432 <br>
+                Tel. 55 4312 7896, 4534 2122 | Lun-Dom 11:00 - 18:00 HRS.
+            </p>
+            <p>Copyright All Rights Reserved ©2022 | 
+                <a href="#">Aviso de privacidad</a> | 
+                <a href="#">Términos y condiciones</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

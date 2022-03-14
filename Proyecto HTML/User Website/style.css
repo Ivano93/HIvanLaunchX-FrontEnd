@@ -1,0 +1,97 @@
+body {
+    font-family: general;
+    margin: 0;
+}
+header {
+    background-color: #FFF;
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+main {
+    padding-top: 200px;
+}
+.container {
+    width: 85%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#menu {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-top: 5px;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation {
+    margin: 0;
+    padding: 0;
+}
+    .navigation ul {
+        list-style: none;
+    }
+        .navigation ul li {
+            display: inline-block;
+        }
+            .navigation ul li a {
+                display: block;
+                padding: 0 20px;
+                color: #763C00;
+                font-size: 20px;
+                text-decoration: none;
+                line-height: 50px;
+            }
+            .navigation ul li a:hover {
+                color: #E9C261;
+            }
+                .navigation ul li a div {
+                    background-color: #763C00;
+                    color: #FFF;
+                    border-radius: 15%;
+                    padding: 0 15px;
+                }
+                .navigation ul li a div:hover {
+                    background-color: #E9C261;
+                    color: #FFF;
+                    border-radius: 15%;
+                    padding: 0 15px;
+                }
+.card {
+    border-radius: 5%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.12),
+                0 2px 4px rgba(0,0,0,0.24);
+    padding: 1px;
+}
+.card h4 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.card p {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.brief {
+    margin-right: 300px;
+    margin-left: 50px;
+    margin-top: 0;
+    padding: 20px 30px 20px 30px;
+    border-style: groove;
+}
+.footer {
+    color: #763C00;
+    text-align: center;
+    margin-top: 50px;
+}
+    .footer a {
+        text-decoration: none;
+        color: #763C00;
+    }

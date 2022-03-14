@@ -1,0 +1,39 @@
+body {
+    font-family: general;
+    margin: 0;
+}
+header {
+    background-color: #FFF;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+main {
+    padding-top: 200px;
+}
+.container {
+    width: 85%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.table {
+    border-collapse: collapse;
+    font-size: large;
+    text-align: center;
+}
+.footer {
+    text-align: center;
+    margin-top: 50px;
+}
+    .footer a {
+        text-decoration: none;
+        color: black;
+    }
