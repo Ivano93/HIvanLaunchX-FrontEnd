@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-image: linear-gradient(to right, #FFFF, #e7f3fc);
+    padding: 20px 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+main {
+    padding-top: 100px;
+}
+hr {
+    background: #6D7B93;
+    opacity: 0.1;
+    margin: 15px 30px 15px 30px;
+}
+footer {
+    background: rgba(56,88,214,0.1);
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 15px;
+    color: #6D7B93;
+    font-size: small;
+    font-weight: bold;
+}
+.header {
+    font-size: 3em;
+    color: #1F3E72;
+}
+.header2 {
+    font-size: 2em;
+    color: #1F3E72;
+}
+.pText {
+    color: #6D7B93;
+}
+.margin {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+    .navigation ul {
+        list-style: none;
+    }
+        .navigation ul li {
+            display: inline-block;
+        }
+            .navigation ul li a {
+                display: block;
+                padding: 0 20px;
+                color: #6D7B93;
+                font-size: 15px;
+                text-decoration: none;
+            }
+                .navigation ul li a div {
+                    background: #3858D6;
+                    color: #FFF;
+                    border-radius: 4px;
+                    padding: 10px 15px 10px 15px;
+                }
+.main {
+    margin-bottom: 150px;
+}
+.backgroundImg {
+    width: 650px;
+    height: 450px;
+}
+.icon {
+    width: 15px;
+    height: 15px;
+}
+.brand {
+    width: 200px;
+    height: 80px;
+}
+.brandText {
+    width: 150px;
+    height: 30px;
+}
+.schedule {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 50px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.12),
+                0 2px 4px rgba(0,0,0,0.24);
+    width: 600px;
+    padding: 0px 25px 15px 25px;
+}
+    .schedule h3 {
+        color: #3858D6;
+    }
+        .schedule label {
+            font-size: 16px;
+            color: #6D7B93;
+        }
+        .schedule input {
+            width: 85%;
+            border: none;
+            font-size: 17px;
+            color: #687a99;
+            font-weight: bold;
+        }
+.containerCards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card {
+    box-shadow: 0 3px 6px rgba(50,82,208,0.12);
+    width: 230px;
+    height: 270px;
+    padding: 0 15px;
+}
+    .card h3 {
+        font-size: 1.1em;
+        color: #1F3E72;
+    }
+    .card p {
+        font-size: small;
+        font-weight: bold;
+        color: #6D7B93;
+    }
+    .card img {
+        margin-top: 15px;
+        width: 35px;
+        height: 35px;
+    }
+.card:hover {
+    box-shadow: 0 3px 6px rgba(50,82,208,0.12),
+                0 6px 12px rgba(50,82,208,0.22);
+}
+.detailCard {
+    box-shadow: 0 3px 6px rgba(122,134,156,0.12);
+}
+    .detailCard img {
+        margin: 0 5px 0 5px;
+    }
+    .detailCard summary{
+        color: #1F3E72;
+        margin: 5px;
+    }
+    .detailCard p {
+        font-size: small;
+        font-weight: bold;
+        color: #6D7B93;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+.containerAside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.containerContacts {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px 5px;
+}
+.contactCard {
+    box-shadow: 0 3px 6px rgba(122,134,156,0.12);
+    width: 170px;
+    height: 150px;
+    padding: 15px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+    .contactCard img {
+        width: 35px;
+        height: 35px;
+    }
+    .contactCard h3 {
+        font-size: 1.1em;
+        color: #1F3E72;
+        margin: 0;
+    }
+    .contactCard button {
+        background: #3858D6;
+        color: #FFFF;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 4px;
+        border: none;
+        padding: 15px 45px 15px 45px;
+        margin-top: 20px;
+    }
+    .contactCard button:hover {
+        background: rgba(56,88,214,0.1);
+        color: #3858D6;
+    }
+
+#logo {
+    font-size: 25px;
+    color: #3858D6;
+}
+#submit {
+    background: #3858D6;
+    color: #FFFF;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 15px 35px 15px 35px;
+}
+
