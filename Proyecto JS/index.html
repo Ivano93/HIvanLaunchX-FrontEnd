@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poke-LaunchX</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="container">
+            <img src="./imgs/Pokemon Logo.png" alt="Pokemon logo"
+            width="500px" height="200px">
+        </section>
+    </header>
+    <main class="container">
+        <section class="layoutContainer">
+            <div class="card infoWindow">
+                <div class="pokeCard">
+                    <img src="./imgs/Pokeball.png" alt="Pokemon image"
+                    id="pokeImg">
+                    <div>
+                        <p id="pokeName"></p>
+                        <p id="pokeId"></p>
+                    </div>
+                </div>
+                <div class="pokeData">
+                    <div id="pokeType"></div>
+                    <div id="pokeAbility"></div>
+                </div>
+            </div>
+            <img src="./imgs/Pokedex Layout.png" alt="Pokedex layout"
+            height="650px" class="layout">
+            <form action="" onsubmit="searchPokemon(event)">
+                <input type="text" name="pokeInput"
+                id="pokeInput" autocomplete="off" placeholder="Pokemon Name/ID">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <script src="./script.js"></script>
+    </footer>
+</body>
+</html>
